@@ -34,3 +34,10 @@ curl http://localhost:8080/ping
 ```
 
 ---
+
+## 🛠️ Tech Stack
+
+- **Framework**: Gin-Gonic
+- **ORM**: GORM
+- **Logging**: Zap
+- **Language**: Go
