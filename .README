@@ -1,0 +1,22 @@
+# Go Clean Architecture Backend
+
+This is a backend template written in Go.
+It follows Clean Architecture and Domain-Driven Design.
+I chose frameworks like Gin-Gonic, GORM, and Zap to help you get started quickly.
+Since it follows clean architecture, you can easily swap out these frameworks later if you want.
+
+```
+
+# 1. Clone the Repository
+$ git clone git@github.com:Byambajav-M/go-clean-ddd.git
+$ cd go-clean-ddd
+
+# 2. Set Up Environment Variables
+$ cp .env.example .env
+
+# 3. Run the Application
+$ go run ./cmd/app
+
+4. Test the API
+$ curl http://localhost:8080/ping
+```
